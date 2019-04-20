@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray;
+}
+
+#title {
+    text-align: center;
+    background-color: #9BC4CB;
+}
+
+#instructions1 {
+    text-align: center;
+    background-color: #CFEBDF;
+}
+
+#rule1, #rule2 {
+    background-color: #E2FADB;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    margin: 2px;
+}
+
+#scoreToMatch {
+    background-color: #903143;
+}
+
+.redBoxText {
+    color: lightgrey;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#yourScore, #winCount {
+    background-color: #DBEFBC;
+}

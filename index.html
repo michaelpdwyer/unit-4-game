@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Crystal Collector!</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript">
+    </script>
+    <script src="assets/javascript/game.js">
+    </script>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="title" class="row text-center">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h1>Crystal Collector!</h1>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="instructions1" class="row text-center">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h6>The number in the red box is your target score.</h6>
+                <h6>Each crystal has an unknown number of points.</h6>
+                <h6>Click on crystals to collect points and match the target score.</h6>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="instructions2" class="row text-center">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <h5 id="rule1">If you match the red box, you win!</h5>
+            </div>
+            <div class="col-5">
+                <h5 id="rule2">If you go over the red box, you lose!</h5>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-3">
+                <p><button><img alt="Red Gem" id="red" src="assets/images/redGem.png"></button></p>
+            </div>
+            <div class="col-3">
+                <p><button><img alt="Blue Gem" id="blue" src="assets/images/blueGem.png"></button></p>
+            </div>
+            <div class="col-3">
+                <p><button><img alt="Green Gem" id="green" src="assets/images/greenGem.png"></button></p>
+            </div>
+            <div class="col-3">
+                <p><button><img alt="Purple Gem" id="purple" src="assets/images/purpleGem.png"></button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-1"></div>
+            <div class="col-3" id="yourScore">
+                <h2>Your Score:</h2>
+                <h2 id="runningScore"></h2>
+            </div>
+            <div class="col-4" id="scoreToMatch">
+                <h2 class="redBoxText">Score to Match:</h2>
+                <h2 class="redBoxText" id="targetScore"></h2>
+            </div>
+            <div class="col-3" id="winCount">
+                <h2 id="wins">Wins: 0</h2>
+                <h2 id="losses">Losses: 0</h2>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+</body>
+
+</html>
